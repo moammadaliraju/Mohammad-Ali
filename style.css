@@ -1,18 +1,22 @@
-/* Global css */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+section{
+    padding: 50px 0px;
+}
 .container{
     width: 90%;
     margin: auto;
 }
-/* Header part  */
 #header{
-    width: 100%;
-    float: left;
-    padding: 15px 0px;
+
+width: 100%;
+
+float: left;
+background-image: url(top.png);
+padding: 20px 0px;
 }
 .logo-part{
 
@@ -20,125 +24,205 @@ width: 25%;
 
 float: left;
 }
-.logo-part a img{
+.Menu-part{
 
 width: 55%;
-}
-.menu-part{
-
-width: 50%;
 
 float: left;
 }
-.menu-part nav{
-
-margin: 18px 50px;
+.Menu-part nav{
+    margin: 26px 77px;
 }
-.menu-part nav ul{
+.Menu-part nav ul{
 
 }
-.menu-part nav ul li{
-
-display: inline-block;
-
-margin: 0px 24px;
+.Menu-part nav ul li{
+    display: inline-block;
+    margin: 0px 15px;
 }
-.menu-part nav ul li a{
-
-text-decoration: none;
-
-color: black;
-
-font-weight: 700;
-
-font-size: 20px;
+.Menu-part nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
 }
 .search-part{
 
-width: 25%;
+width: 15%;
 
-float: left;
-}
-.search-part input{
+float: right;
 
-padding: 8px;
+font-size: 35px;
 
-margin: 12px;
-
-border-radius: 20px;
-
-border: 2px solid black;
-font-size: 17px;
-}
-.search-part input::placeholder{
-    text-align: right;
-    font-size: 17px;
+color: white;
 }
 .search-part i{
 
-font-size: 25px;
+width: 100%;
 
-display: inline-block;
+float: right;
+
+padding: 20px 0px 20px 174px;
 }
-/* hero part */
+/* hero section */
 #hero{
     width: 100%;
     float: left;
-    background: url(../img/bg.png) no-repeat center;
+    background: url(men.png);
     background-size: cover;
-    padding: 50px 0px;
+    background-position: center;
 }
-.hero-wp{
-    width: 50%;
-    float: left;
-    padding-top: 150px;
+#hero h1{
+    font-size: 80px;
+    margin: 300px 100px 0px 0px;
+    color: white;
 }
-.hero-wp h1{
-
-color: #00d3b5;
-
-font-size: 37px;
+#hero p{
+    max-width: 300px;
+    color: white;
+    font-size: 18px;
+    margin: 30px 0px;
+}#hero a button{
+    background: rgb(251, 88, 29);
+    color: white;
+    padding: 10px 30px;
+    width: 150px;
+    margin-bottom: 50px;
+    border-radius: 5px;
 }
-.hero-wp h2{
+/* header-2 */
+#header-2{
 
-color: white;
+width: 100%;
+
+float: left;
+
+background: url(back.png);
+padding-bottom: 40px;
+}
+.writting{
+
+width: 100%;
+
+text-align: center;
+}
+.writting h2{
+
+padding-top: 50px;
 
 font-size: 50px;
 
-line-height: 60px;
-}
-.hero-wp p{
-
-max-width: 400px;
-
 color: white;
-
-font-size: 18px;
-
-margin: 50px 0px;
 }
-.hero-wp a button{
+.writting p{
+    max-width: 300px;
+    color: white;
+    font-size: 17px;
+    margin: 25px 450px;
+}
+.feature{
 
-background: transparent;
+width: 100%;
+text-align: center;
 
+}
+.feature-box{
+    width: 30%;
+    float: left;
+    margin: 0 1.5%;
+    background: #303030;
+    color: white;
+}
+
+.feature-box h2{
+    width: 100%;
+    float: left;
+    font-size: 30px;
+    padding-top: 20px;
+}
+.feature-box p{
+    padding-bottom: 20px;
+}
+/* feature-part */
+
+.feature-part{
+    width: 100%;
+    float: left;
+    background: url(back1.png);
+    padding-bottom: 50px;
+}
+.f-writting-part{
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.f-writting-part h3{
+    width: 100%;
+    float: left;
+    padding: 30px;
+    font-size: 60px;
+}
+.f-writting-part p{
+    width: 100%;
+    float: left;
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+.f-logo-part{
+    width: 30%;
+    float: left;
+    background: url(iconback.png);
+    margin: 0 1.5%;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.f-logo-part a{
+    
+}
+.f-logo-part a{
+    padding-top: 50px;
+}
+.f-logo-part h3{
+width: 100%;
+text-align: center;
 color: white;
-
-padding: 10px;
-
-width: 150px;
-
-border: 2px solid white;
-
-border-radius: 20px;
+padding: 20px;
+font-size: 25px;
 }
-.images-hero{margin-top: 35px;}
-.images-hero img{width: 60px;margin-right: 20px;}
-.hero-ip{
+.f-logo-part p{
+width: 100%;
+text-align: center;
+color: white;
+padding-bottom: 20px;
+}
+
+.f-logo-part button{
+    padding: 8px 80px;
+    background: #303030;
+    color: white;
+    
+}
+/* more-part */
+.more-part{
+    width: 100%;
+    float: left;
+    
+}
+.m-logo-part{
     width: 50%;
     float: left;
-    text-align: center;
+    
 }
-.hero-ip img{
-    width: 60%;
-    margin-top: 80px;
+.m-writting-part{
+    width: 50%;
+    float: left;
+    
+}
+.more{
+    width: 50%;
+    float: left;
+}
+.more1{
+    width: 100%;
+    float: left;
 }
